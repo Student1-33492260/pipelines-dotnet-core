@@ -29,7 +29,7 @@ jobs:
     - name: Publish
       run: dotnet publish -c Release -o website
     - name: Upload artifact for deployment job
-      uses: actions/upload-artifact@3.1.2
+      uses: actions/upload-artifact@v3.1.2
       with:
         name: webapp
         path: website/**
